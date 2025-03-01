@@ -1,5 +1,5 @@
 export { HomeView } from "./home";
-export { ToolsView } from "./tools";
+export { ToolView } from "./tools";
 export { FeaturesView } from "./feature";
 export { OfferView } from "./offer";
 export { FaqView } from "./faq";

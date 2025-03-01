@@ -28,15 +28,15 @@ const Home: NextPage = (Props) => {
       <meta name = "Solana token creator" content='Build and create solana token'/>
       </Head>
       <HomeView setOpenCreateModal = {setOpenCreateModal}/>
-      {/* <ToolView
+       <ToolView
       setOpenAirDrop = {setOpenAirDrop}
-      setOpenContract = {setOpenContract}
+      setOpenContract = {setOpenContact}
       setOpenCreateModal = {setOpenCreateModal}
       setOpenSendTransaction = {setOpenSendTransaction}
       setOpenTokenMetadata = {setOpenTokenMetadata}
       />
 
-        <FeaturesView setOpenAirDrop={setOpenAirDrop}
+      {/*<FeaturesView setOpenAirDrop={setOpenAirDrop}
           setOpenContract={setOpenContract}
           setOpenCreateModal={setOpenCreateModal}
           setOpenSendTransaction={setOpenSendTransaction}
