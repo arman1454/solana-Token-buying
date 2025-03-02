@@ -36,13 +36,13 @@ const Home: NextPage = (Props) => {
       setOpenTokenMetadata = {setOpenTokenMetadata}
       />
 
-      {/*<FeaturesView setOpenAirDrop={setOpenAirDrop}
-          setOpenContract={setOpenContract}
+      <FeaturesView setOpenAirDrop={setOpenAirDrop}
+          setOpenContact={setOpenContact}
           setOpenCreateModal={setOpenCreateModal}
           setOpenSendTransaction={setOpenSendTransaction}
           setOpenTokenMetadata={setOpenTokenMetadata} />
 
-          <OfferView/>
+      {/*<OfferView/>
           <FaqView/>
 
           {
