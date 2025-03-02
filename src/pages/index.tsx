@@ -42,8 +42,8 @@ const Home: NextPage = (Props) => {
           setOpenSendTransaction={setOpenSendTransaction}
           setOpenTokenMetadata={setOpenTokenMetadata} />
 
-      {/*<OfferView/>
-          <FaqView/>
+      <OfferView/>
+      {/*<FaqView/>
 
           {
             openCreateModal && (
