@@ -43,16 +43,16 @@ const Home: NextPage = (Props) => {
           setOpenTokenMetadata={setOpenTokenMetadata} />
 
       <OfferView/>
-      {/*<FaqView/>
+      <FaqView/>
 
-          {
+       {
             openCreateModal && (
               <div className='new_loader relative h-full bg-slate-900'>
                 <CreateView setOpenCreateModal={setOpenCreateModal}/>
               </div>
             )
           }
-          {
+      {/*{
             openTokenMetadata && (
               <div className='new_loader relative h-full bg-slate-900'>
                 <TokenMetadata setOpenTokenMetadata={setOpenTokenMetadata}/>

@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const NetworkSwitcher: FC = () => {
+const CreateSVG: FC = () => {
   return (
     <>
       <svg viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg">
@@ -24,4 +24,4 @@ const NetworkSwitcher: FC = () => {
   );
 };
 
-export default NetworkSwitcher;
+export default CreateSVG;
